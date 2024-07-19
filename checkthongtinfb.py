@@ -1,6 +1,6 @@
 import requests
 import urllib3
-
+banner()
 # Vô hiệu hóa cảnh báo không an toàn
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
