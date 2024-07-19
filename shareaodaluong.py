@@ -6,12 +6,12 @@ import json
 import urllib3
 import sys
 import random
+banner()
 import concurrent.futures
 from time import strftime, sleep
 from colorama import Fore, Style
 from colored import fg, bg, attr
 from pystyle import *
-banner()
 urllib3.disable_warnings()
 
 proxy_nedimemay = [
