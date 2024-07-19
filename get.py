@@ -382,7 +382,7 @@ if chon == 5.21 :
 if chon == 5.22 :
 	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/shareaotoken.py').text)
 if chon == 5.23 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tocaofb.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tocao.py').text)
 if chon == 6.1 :
 	exec(requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/spamsms2.txt').text)
 if chon == 6.2 :
