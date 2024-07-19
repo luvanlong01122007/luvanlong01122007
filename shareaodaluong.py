@@ -1,4 +1,5 @@
-
+clear()
+banner()
 import requests
 import re
 import os
@@ -6,12 +7,12 @@ import json
 import urllib3
 import sys
 import random
-banner()
 import concurrent.futures
 from time import strftime, sleep
 from colorama import Fore, Style
 from colored import fg, bg, attr
 from pystyle import *
+
 urllib3.disable_warnings()
 
 proxy_nedimemay = [
@@ -35,7 +36,7 @@ def tokens(cookie, proxies=None):
     session.cookies.update({'cookie': cookie})
     
     if proxies:
-        session.proxies = {'http': random.choice(proxies)}  
+        session.proxies = {'http': random.choice(proxies)}  # Set proxy if provided
     
     try:
         get_data = session.get("https://www.facebook.com/v2.3/dialog/oauth", params={
@@ -116,7 +117,7 @@ def main(post_id, token_dict, total_shares, chống_block1, chống_block, da_lu
             
             if start + chống_block1 < total_shares:
                 cl()
-                print(f"{fg('green')}Chống Block {attr('reset')}")
+                print(f"{fg('green')}Chống Block Menu By Ngọc An{attr('reset')}")
                 for _ in range(chống_block, 0, -1):
                     print(f"Đang dừng lại để chống block, còn {_} giây...", end='\r')
                     sleep(1)
