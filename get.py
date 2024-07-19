@@ -332,57 +332,57 @@ if not check_internet_connection():
     print("\n\033[1;39mBạn bug 1 lần nữa sẽ bị dính botnet ngay nhé")
     sys.exit(1) 
 if chon == 1.1 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/tdstiktok.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tdstiktok.py').text)
 
 if chon == 1.2 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/tdsfb.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tdsfb').text)
 if chon == 1.3 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/tdspage.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tdspage.py').text)
 if chon == 2.1 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/ttcpage.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/ttcpage.py').text)
 if chon == 3.1 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/goliketiktok.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/goliketiktok.py').text)
 if chon == 5.1 :
-	exec(requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/cmtdaofb.txt').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/cmtdaofb.py').text)
 if chon == 5.2 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/regpage.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/regpage.py').text)
 if chon == 5.3 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/buffpage.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/buffpage.py').text)
 if chon == 5.4 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/chuyenquyenpage.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/chuyenquyenqtv.py').text)
 if chon == 5.5 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/cmtfb.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/cmtfb.py').text)
 if chon == 5.6 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/spambox.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/spambox.py').text)
 if chon == 5.7 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/spammess.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/spammess.py').text)
 
 if chon == 5.9 :
-	exec(requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/mailfb.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/mailfb.py').text)
 if chon == 5.11 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/getcookie.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/getcookie.py').text)
 if chon == 5.12 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/nuoifb.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/nuoifb.py').text)
 if chon == 5.13 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/gettoken.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/gettoken.py').text)
 if chon == 5.14 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/cmtpage.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/cmtpage.py').text)
 if chon == 5.15 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/id.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/id.py').text)
 if chon == 5.16 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/chuinhau.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/chuinhau.py').text)
 if chon == 5.17 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/checkthongtinfb.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/checkthongtinfb.py').text)
 if chon == 5.18 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/cookiepro5.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/cookiepro5.py').text)
 if chon == 5.19 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/shareao.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/shareao.py').text)
 if chon == 5.21 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/shareaodaluong.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/shareaodaluong.py').text)
 if chon == 5.22 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/shareaotoken.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/shareaotoken.py').text)
 if chon == 5.23 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/tocaofb.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tocaofb.py').text)
 if chon == 6.1 :
 	exec(requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/spamsms2.txt').text)
 if chon == 6.2 :
