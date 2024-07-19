@@ -18,16 +18,13 @@ tokenl = []
 list_acc = []
 success = []
 
-
+clear()
 banner()
 def sleep(delay):
     for i in range(delay, -1, -1):
         print(f"Vui lòng đợi sau {i} giây để tiếp tục...",end='')
         print("\r",end='')
         time.sleep(1)
-
-def vLong():
-    print(f"{luc}---------------------------------------------------------------------------")
 
 def tool_cmt(session, listcmt, tokenl, post, sl, time, acc, jsondatapage):
     while True:
@@ -61,7 +58,7 @@ getpage = session.get(f"https://graph.facebook.com/me/accounts?access_token={tok
 for getp in getpage['data']:
     print(f"{trang}[{do}{len(tokenl)+1}{trang}] {luc}Tên : {vang}{getp['name']}{luc} : ID : {xduong}{getp['id']}")
     tokenl.append(getp['access_token'])
-vLong()
+
 soacc = input(f"{put}Nhập Acc Cần Chạy Comment (1+2+3...) Hoặc (all): {vang}")
 if soacc == 'all':
     for i in range(len(tokenl)):
@@ -70,15 +67,15 @@ else:
     acc = soacc.split('+')
     for accrun in acc:
         list_acc.append(int(accrun)-1)
-vLong()
+
 while True:
     socmt = int(len(list_cmt))+1
     cmt = input(f"{out}Nhập Comments {socmt}: {vang}")
     if cmt == '':
         break
     list_cmt.append(cmt)
-vLong()
+
 delaytime = int(input(f"{put}Delay Comments: {vang}"))
 slcmt = input(f"{put}Sau Bao Nhiêu Comments Thì Đổi Acc: {vang}")
-vLong()
+
 tool_cmt(session,list_cmt,tokenl,id_post,slcmt,delaytime,list_acc,getpage)
