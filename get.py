@@ -264,7 +264,7 @@ print("\033[1;39m   ╔═══════════════╗")
 print("\033[1;39m   ║ \033[1;34mTOOL KIẾM XU\033[1;39m  ║ ")
 print("\033[1;39m   ╚═══════════════╝")
 print("\033[38;5;155m      Nhập Số \033[1;36m[555] \033[38;5;204mTOOL HAMSTER ")
-print("\033[38;5;155m      Nhập Số \033[1;36m[666] \033[38;5;204mTOOL BUFF LIKE Machineliker.net \033[1;33m[COOKIE FB]")
+
 
 
 print("\033[1;39m   ╔═════════════════════════════╗")
@@ -335,7 +335,7 @@ if chon == 1.1 :
 	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tdstiktok.py').text)
 
 if chon == 1.2 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tdsfb').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tdsfb.py').text)
 if chon == 1.3 :
 	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/tdspage.py').text)
 if chon == 2.1 :
@@ -388,7 +388,7 @@ if chon == 6.1 :
 if chon == 6.2 :
 	exec(requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/viewprx.txt').text)
 if chon == 6.3 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/zefoy.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/zefoy.py').text)
 if chon == 7.1 :
 	exec(requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/mail.txt').text)
 if chon == 7.2 :
@@ -396,7 +396,7 @@ if chon == 7.2 :
 if chon == 7.3 :
 	exec(requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/locproxy.txt').text)
 if chon == 8.1 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/hdt.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/luvanlong01122007/luvanlong01122007/main/hdt.py').text)
 
 	
 #tool kiếm xu
@@ -408,7 +408,5 @@ if chon == 9.3 :
 	exec(requests.get('https://raw.githubusercontent.com/KhanhNguyen9872/dump_marshal_py/main/dump_marshal.py').text)
 if chon == 555 :
 	exec(requests.get('https://raw.githubusercontent.com/vlong07/vlong07/main/ham.txt').text)
-if chon == 666 :
-	exec(requests.get('https://raw.githubusercontent.com/luvanlong2007/gopvipne/main/machinerlike.py').text)
 else :
 	exit()
