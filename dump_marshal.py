@@ -1,12 +1,5 @@
 #!/usr/bin/python3
 
-if "/".join(__import__('sys').argv[0].split("\\")).split("/")[-1] != "dump_marshal.py":
-    __import__('sys').exit(1)
-try:
-    if "/".join(__file__.split("\\")).split("/")[-1] != "dump_marshal.py":
-        __import__('sys').exit(1)
-except:
-    pass
 
 
 print(">>> Marshal dump by KhanhNguyen9872")
@@ -14,6 +7,13 @@ print(">>> FB: https://fb.me/khanh10a1")
 print("!! ĐÂY LÀ TOOL SHARE FREE TẠI GITHUB KHANHNGUYEN9872 !!")
 print("!! NẾU BẠN MUA TOOL NÀY TỪ MỘT AI ĐÓ, HỌ LÀ LỪA ĐẢO !!")
 print()
+if "/".join(__import__('sys').argv[0].split("\\")).split("/")[-1] != "dump_marshal.py":
+    __import__('sys').exit(1)
+try:
+    if "/".join(__file__.split("\\")).split("/")[-1] != "dump_marshal.py":
+        __import__('sys').exit(1)
+except:
+    pass
 
 __pypath__ = __import__('os').getcwd()
 
