@@ -1,5 +1,4 @@
-clear()
-banner()
+
 from builtins import exec, input, len, print, int, range, str, open, exit
 exec('')
 xnhac = '\x1b[1;36m'
