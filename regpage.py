@@ -10,6 +10,7 @@ import requests
 os.system("clear")
 dau="\033[1;31m[\033[1;37mvL\033[1;31m] \033[1;37m=>  "
 
+banner()
 class reg_pro5():
     def __init__(self,cookies, name) -> None:
         self.cookies = cookies
@@ -94,7 +95,7 @@ class reg_pro5():
         except:
                 return response.text
 os.system("clear")
-
+banner()
 dem = 0
 ck = input ('\033[1;31m[\033[1;37mvL\033[1;31m] \033[1;36m=> \033[1;37mNhập Cookie Acc Reg Pro5: \033[1;33m')  
 dl = '1000'
