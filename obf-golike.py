@@ -184,7 +184,7 @@ def banner(red,green,blue,yellow,cyan,pink):
 
   text=f'''
 
-vLong
+VTung
 
 '''
 
