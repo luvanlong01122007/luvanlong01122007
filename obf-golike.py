@@ -183,8 +183,7 @@ def changetoken(red,green,white):
 def banner(red,green,blue,yellow,cyan,pink):
 
   text=f'''
-
-vLong
+Phạm Văn Tùng
 
 '''
 
