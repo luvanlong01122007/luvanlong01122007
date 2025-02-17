@@ -1,3 +1,13 @@
+import sys
+import webbrowser
+
+required_version = (3, 11)
+
+if sys.version_info[:2] != required_version:
+    print("Box Spam sms - like - kết bạn ff tại https://t.me/spamsmsvlong")
+    webbrowser.open("https://t.me/spamsmsvlong")
+    sys.exit(1)
+
 import time
 time.sleep(10)
 thanhcong=0
