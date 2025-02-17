@@ -1,15 +1,15 @@
+
+
 import sys
 import webbrowser
 
 required_version = (3, 11)
 
 if sys.version_info[:2] != required_version:
-    print(f"Bạn đang sử dụng Python {sys.version.split()[0]}, nhưng chương trình yêu cầu Python 3.11.")
-    print("Đang chuyển hướng đến Telegram...")
+    print("Box Spam sms - like - kết bạn ff tại https://t.me/spamsmsvlong")
     webbrowser.open("https://t.me/spamsmsvlong")
     sys.exit(1)
 
-print("Python 3.11 được phát hiện. Tiếp tục chạy chương trình...")
 
 import os
 
